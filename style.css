@@ -158,3 +158,9 @@ a:hover, a:active {
     margin: 10px auto;
     color: #FFF;
 }
+.website-mainheader table td {
+ width: 50%;
+ font-size:24px;
+ font-style:curve;
+ text-align:center;
+}
