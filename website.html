@@ -7,6 +7,11 @@
 
      <link rel="stylesheet" href="style.css" type="text/css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script type="text/javascript"> 
+           var timeElement = document.getElementById('time'); 
+           timeElement.innerHTML = new Date(); 
+      </script> 
+
 </head>
 
 <body class="body">
@@ -22,7 +27,7 @@
        </table>
          <nav><ul>
            <a href="website.html"> Home </a> | <a href="about.html"> About </a> | <a href="fitnessnews.html"> Fitness News </a>| <a href="Contact.html">Contact</a>
-            
+            <span id="time"></span>
         </ul></nav>
     </header>
 
