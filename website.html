@@ -8,8 +8,11 @@
      <link rel="stylesheet" href="style.css" type="text/css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script type="text/javascript"> 
-           var timeElement = document.getElementById('time'); 
+      document.addEventListener( 'DOMContentLoaded', function () {
+          var timeElement = document.getElementById('time'); 
            timeElement.innerHTML = new Date(); 
+     }, false );
+           
       </script> 
 
 </head>
