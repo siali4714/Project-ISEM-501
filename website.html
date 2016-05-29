@@ -7,6 +7,10 @@
 
      <link rel="stylesheet" href="style.css" type="text/css"/>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script type="text/javascript">
+          var timeElement = document.getElementById('time');
+          timeElement.innerHTML = new Date();
+     </script>
 </head>
 
 <body class="body">
@@ -14,15 +18,14 @@
     
 
     <header class="mainheader">
-         <table class="website-mainheader">
          <tr>
-              <td><img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Gym_wiki.jpg"></td>
-              <td><a href="http://siali4714.github.io/Project-ISEM-501/website.html">WWW.MYFITNESSCENTER.COM</a></td>
+              <td>img src="https://upload.wikimedia.org/wikipedia/commons/b/b6/Gym_wiki.jpg"</td>
+              <td> FITNESSCENTER.COM</td>
          </tr>
-       </table>
+       
          <nav><ul>
            <a href="website.html"> Home </a> | <a href="about.html"> About </a> | <a href="fitnessnews.html"> Fitness News </a>| <a href="Contact.html">Contact</a>
-            
+            <span id="time"></span>            
         </ul></nav>
     </header>
 
@@ -81,3 +84,4 @@ Before the industrial revolution, fitness was the capacity to carry out the days
 </body>
 
 </html>
+
